@@ -302,7 +302,7 @@ header{
 
 /* change background on scroll */
 .navbar-cng{
-    background-color: rgba(2, 67, 59, 0.774);
+    background-color: #f7f7f7;
     
     -webkit-box-shadow: 0px 4px 5px 0px rgba(48, 48, 48, 0.2);
             box-shadow: 0px 4px 5px 0px rgba(48, 48, 48, 0.2);
