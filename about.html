@@ -10,6 +10,12 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- fonts -->
         <link rel = "stylesheet" href = "font/fonts.css">
+           <!-- animate  -->
+           <link
+           rel="stylesheet"
+           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+         />
+       
         <!-- normalize css -->
         <link rel = "stylesheet" href = "css/normalize.css">
         <!-- custom css -->
@@ -18,11 +24,16 @@
         <link rel = "stylesheet" href = "css/responsive.css">
     </head>
     <body>
+
+       
         <!-- navbar  -->
         <nav class = "navbar">
+            <div class="logo">
+                <img src="./images/travelsky.png" alt="">
+            </div>
             <div class = "container flex">
                 <a href = "index.html" class = "site-brand">
-                    Travel<span>Sky</span>
+                    <!-- Travel<span>Sky</span> -->
                 </a>
 
                 <button type = "button" id = "navbar-show-btn" class = "flex">
@@ -43,7 +54,7 @@
                             <a href = "blog.html" class = "nav-link">Blog</a>
                         </li>
                         <li class = "nav-item">
-                            <a href = "about.html" class = "nav-link">About</a>
+                            <a href = "service.html" class = "nav-link">Service</a>
                         </li>
                         <li class = "nav-item">
                             <a href = "contact.html" class = "nav-link">Contact</a>
@@ -58,8 +69,10 @@
         <header class = "flex header-sm">
             <div class = "container">
                 <div class = "header-title">
-                    <h1>About</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus rerum maxime enim odit illum in molestias beatae doloremque, ratione optio.</p>
+                    <h1>About us</h1>
+                    <p class = "animate__animated  animate__backInLeft">To be a high performance company that<p>
+                        <p class="animate__animated  animate__backInRight">We are committed to excellence in providing compassionate, personalized care through</p>
+                        <p class = "animate__animated  animate__backInLeft">We believe that by working together, we will improve the standards of the community we serve.</p>
                 </div>
             </div>
         </header>
@@ -87,12 +100,116 @@
         </section>
         <!-- end of about section -->
 
+        <!-- our Mission -->
+
+       
+
+
+        <section id="mission">
+            <div class = "container-fluid">
+                <div class = "mission-des">
+                    <br>
+                    <h1 class = "">Our Mission</h1>
+                </div>
+
+                <div class="mission">
+                    <ol type="i">
+                        <li >
+                            <img src="./images/check-mark.png"  alt="">
+                            <p>Our quest is to manage business travel and fulfill vacation dreams through our commitment to personalized, world-class service.</p>
+                        </li>
+
+                        <li>
+                            <img src="./images/check-mark.png"  alt="">
+                            <p>As members of the <strong>TravelSky</strong> management team, we provide the highest level of travel management in the industry.</p>
+                        </li>
+                        <li>
+                            <img src="./images/check-mark.png"  alt="">
+                            <p>We believe that consistent, ethical and quality performance with our customers, vendors, employees and community will result in loyal, long-term relationships.</p>
+                        </li>
+                        <li>
+                            <img src="./images/check-mark.png"  alt="">
+                            <p>We believe our service should exceed industry standards and be the best value for the customer.</p>
+                        </li>
+                        <li>
+                            <img src="./images/check-mark.png"  alt="">
+                            <p>We will create a profit that will enhance the lives of our employees and, in part, will be given back to the community through programs and services.</p>
+                        </li>
+                        <li>
+                            <img src="./images/check-mark.png"  alt="">
+                            <p>We believe that through shared decision-making, our company will proactively and successfully meet the challenges of the future</p>
+                        </li>
+                        <li>
+                            <img src="./images/check-mark.png"  alt="">
+                            <p>We can never be less than the best.</p>
+                        </li>
+                    </ol>
+                    <br>
+                </div>
+        </section>
+
+
+        <section id="vision">
+            <div class = "container-fluid">
+                <div class = "mission-des">
+                    <br>
+                    <h1 class = "">Our Vision</h1>
+                </div>
+
+                <div class="vision">
+                    <ol>
+                        <li >
+                            <img src="./images/check-mark.png"  alt="">
+                            <p>Mutual trust and respect.</p>
+                        </li>
+
+                        <li>
+                            <img src="./images/check-mark.png"  alt="">
+                            <p>Education and leadership.</p>
+                        </li>
+                        <li>
+                            <img src="./images/check-mark.png"  alt="">
+                            <p>Efficiency and service.</p>
+                        </li>
+                        <li>
+                            <img src="./images/check-mark.png"  alt="">
+                            <p>Attracts customers and exceeds their expectations.</p>
+                        </li>
+                        <li>
+                            <img src="./images/check-mark.png"  alt="">
+                            <p>Serves and supports the community.</p>
+                        </li>
+                        <li>
+                            <img src="./images/check-mark.png"  alt="">
+                            <p>Provides an enriching, fulfilling and rewarding environment for employees.</p>
+                        </li>
+                        <li>
+                            <img src="./images/check-mark.png"  alt="">
+                            <p>Access and quality.</p>
+                        </li>
+                        <li>
+                            <img src="./images/check-mark.png"  alt="">
+                            <p>values long-term relationships with suppliers.</p>
+                        </li>
+                    </ol>
+                    <br>
+                </div>
+        </section>
+
+           
+
+
+           
+
+
+
+
         <!-- facts section -->
-        <section id = "facts" class = "py-4 flex">
+        <!-- <section id = "facts" class = "py-4 flex">
             <div class = "container">
                 <div class = 'title-wrap'>
                     <span class = "sm-title">know some facts about our agency</span>
-                    <h2 class = "lg-title">fun facts</h2>
+                    <h2 class = "lg-title">Our Mission</h2>
                 </div>
 
                 <div class = "facts-row">
@@ -129,7 +246,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- end of facts section -->
         
 

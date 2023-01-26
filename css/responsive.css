@@ -1,6 +1,15 @@
 
 
-
+@media  screen and (max-width: 1500px) {
+    .logo img {
+        width: 200px;
+        position: fixed;
+        top: -50px;
+        left: 0;
+        
+    }
+    
+}
 @media screen and (max-width: 460px){
     .featured-item-content{
         -webkit-transform: translateY(68%);

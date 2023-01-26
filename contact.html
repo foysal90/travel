@@ -10,7 +10,16 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- fonts -->
         <link rel = "stylesheet" href = "font/fonts.css">
-        <!-- normalize css -->
+
+        
+
+        <!-- animate  -->
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+         <!-- normalize css -->
         <link rel = "stylesheet" href = "css/normalize.css">
         <!-- custom css -->
         <link rel = "stylesheet" href = "css/utility.css">
@@ -18,11 +27,17 @@
         <link rel = "stylesheet" href = "css/responsive.css">
     </head>
     <body>
+
+       
         <!-- navbar  -->
         <nav class = "navbar">
+
+            <div class="logo">
+                <img src="./images/travelsky.png" alt="">
+            </div>
             <div class = "container flex">
                 <a href = "index.html" class = "site-brand">
-                    Travel<span>Sky</span>
+                    <!-- Travel<span>Sky</span> -->
                 </a>
 
                 <button type = "button" id = "navbar-show-btn" class = "flex">
@@ -46,7 +61,7 @@
                             <a href = "about.html" class = "nav-link">About</a>
                         </li>
                         <li class = "nav-item">
-                            <a href = "contact.html" class = "nav-link">Contact</a>
+                            <a href = "service.html" class = "nav-link">Services</a>
                         </li>
                     </ul>
                 </div>
@@ -57,9 +72,11 @@
         <!-- header -->
         <header class = "flex header-sm">
             <div class = "container">
-                <div class = "header-title">
+                <div class = "header-title" id="animate">
                     <h1>Contact</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus rerum maxime enim odit illum in molestias beatae doloremque, ratione optio.</p>
+                    <p class="animate__animated  animate__backInLeft">Our Dedicated Team Are Always Glad To Assist You </p>
+                    <p class="animate__animated  animate__backInRight">Reach out to us for your any needs,</p>
+                    <p class="animate__animated  animate__rollIn">We will be more than Happy to help you!!!</p>
                 </div>
             </div>
         </header>
@@ -68,21 +85,21 @@
         <!-- contact section -->
         <section id = "contact" class = "py-4">
             <div class = "container">
-                <div class = "title-wrap">
+                <div class = "title-wrap" class=" animate__backInLeft">
                     <span class = "sm-title">get in touch with us</span>
                     <h2 class = "lg-title">contact us</h2>
                 </div>
 
                 <div class = "contact-row">
                     <div class = "contact-left">
-                        <form class = "contact-form">
+                        <form class = "contact-form animate__animated animate__backInLeft ">
                             <input type = "text" class = "form-control" placeholder="Your name">
                             <input type = "email" class = "form-control" placeholder="Your email">
                             <textarea rows = "4" class = "form-control" placeholder="Your message" style = "resize: none;"></textarea>
                             <input type = "submit" class = "btn" value = "Send message">
                         </form>
                     </div>
-                    <div class = "contact-right my-2">
+                    <div class = "contact-right my-2 animate__animated animate__backInRight">
                         <div class = "contact-item">
                             <span class = "contact-icon flex">
                                 
@@ -112,12 +129,64 @@
                             </span>
                             <div>
                                 <span>Message</span>
-                                <p class = "text">info@travelsky.net</p>
+                                <p class = "text">travelskyzyl@gmail.com</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section id="location">
+
+            <h1 class="branch">Visit Our Branches</h1>
+
+            <div class="container-fluid bg-dark">
+                <div class="row">
+                    <div class = "contact-right my-2 animate__animated animate__backInLeft">
+
+                        <h1 >Dhaka office </h1>
+                        <hr>
+                        <ul >
+                            <p>Shop # F4, 3rd Floor,<br> Muktijoddhas Shopping Complex <br>Haji Camp, Dakshinkhan, Dhaka, Bangladesh,1230</p>
+
+                            
+                        </ul>
+                    </div>
+
+                    <div class = "contact-right my-2 animate__animated animate__backInRight" >
+
+                        <h1 >Sylhet office </h1>
+                        <hr >
+                        <ul>
+                           <p>Room # 03, 2nd Floor,Nass Complex <br> Subhanighat,Sylhet, Bangladesh,3100</p>
+
+                            
+                        </ul>
+                    </div>
+
+                   
+                </div>
+            </div>
+            <!-- <div>
+                <div>
+                    <h1>Visit Our Branches </h1>
+                </div>
+                <div class="office">
+                    
+                    <ul>
+                        <h1>Head Office</h1>
+                        <li>Dhaka</li>
+                    </ul>
+
+                    <ul>
+                        <h1>main office</h1>
+                        <li>sylhet</li>
+                    </ul>
+                </div>
+
+                
+            </div> -->
         </section>
         <!-- end of contact section -->
         
