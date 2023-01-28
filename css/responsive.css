@@ -39,6 +39,81 @@
     }
     
 }
+
+
+@media  screen and (max-width: 1500px) {
+    .mission {
+    position: relative;
+    left: 0;
+    width: 100%;
+    color: white;
+    background:linear-gradient(90deg, rgba(4, 42, 52, 0.577)
+    0%,rgba(106, 90, 205,0.7) 
+    );
+    
+        
+    }
+
+    .mission ol li {
+        display: flex;
+        position: relative;
+        left: 0;
+        
+    }
+
+    .mission ol li img {
+        position: relative;
+        left: 0;
+        width:20px;
+        
+    }
+    
+}
+
+@media screen and (max-width:1300px) {
+
+    .failure{
+    
+        position: relative;
+        left: 0;
+        width: 100%;
+        color: white;
+        background:linear-gradient(90deg, rgba(10, 185, 234, 0.545)
+        0%,rgba(106, 90, 205,0.7) 
+        );
+        
+    }
+    .failure ul li {
+        display: flex;
+        position: relative;
+        left: 0;
+    
+    }
+    
+   
+    
+    .failure ul li img {
+        position: relative;
+        left: 0;
+        width:20px;
+    }
+    
+    
+    
+    /* .sec-des > h1 {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid;
+        border-width: 50px;
+    
+        background:linear-gradient(90deg, rgba(10, 185, 234, 0.545)
+        0%,rgba(239, 4, 168, 0.221) 
+        );
+    
+    } */
+    
+    
+}
 @media screen and (max-width: 460px){
     .featured-item-content{
         -webkit-transform: translateY(68%);
