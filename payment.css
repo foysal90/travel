@@ -8,7 +8,7 @@
 .payment {
     width: 100%;
     text-align: center;
-    background: radial-gradient(circle, #e21313fe, #34ec1ca6, green); 
+    background: radial-gradient(circle, #e21313a9, #34ec1c41, rgba(0, 128, 0, 0.562)); 
 }
 
 .payment-form {
