@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.payment {
+    width: 100%;
+    text-align: center;
+    background: radial-gradient(circle, #e21313fe, #34ec1ca6, green); 
+}
+
+.payment-form {
+    background: linear-gradient(to right, #e2136efe, #ec1c24b3, #9f1cdcb3);
+
+    /* background: radial-gradient(circle, #e2136efe, #ec1c24b3, #9f1cdcb3); */
+      
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 25px;
+    
+}
