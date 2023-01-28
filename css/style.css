@@ -1066,7 +1066,7 @@ header.header-sm{
     padding-top: 50px;
     
     margin: auto; */
-
+    
     width: 100%;
     height: 70px;
     padding-top: 20px;
@@ -1078,4 +1078,43 @@ header.header-sm{
     );
     
 }
+
+
+.coming-soon{
+    font-size: 40px;
+    background-color: #0f3b7894;
+    color: rgb(228, 15, 15);
+    position: fixed;
+    left: 0;
+    text-align: center;
+    top: 100px;
+    width: 100%;
+    z-index: 3;
+    
+}
+
+.coming-soon > h1 {
+    color: greenyellow;
+    font-size: 100px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.day, .hour, .minute, .second {
+    font-size: 90px !important;
+    color: greenyellow;
+}
+
+.travelsky video {
+    width: 60%;
+    
+    position: relative;
+    left: 5%;
+}
+
+
 
