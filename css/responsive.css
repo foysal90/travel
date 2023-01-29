@@ -10,7 +10,7 @@
     }
     
 }
-
+/* 
 @media  screen and (max-width: 1500px) {
     .vision {
     position: relative;
@@ -113,7 +113,7 @@
     } */
     
     
-}
+/* }  */
 @media screen and (max-width: 460px){
     .featured-item-content{
         -webkit-transform: translateY(68%);
