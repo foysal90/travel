@@ -10,7 +10,7 @@
     }
     
 }
-/* 
+
 @media  screen and (max-width: 1500px) {
     .vision {
     position: relative;
@@ -100,20 +100,9 @@
     
     
     
-    /* .sec-des > h1 {
-        text-align: center;
-        padding: 10px;
-        border: 1px solid;
-        border-width: 50px;
-    
-        background:linear-gradient(90deg, rgba(10, 185, 234, 0.545)
-        0%,rgba(239, 4, 168, 0.221) 
-        );
-    
-    } */
     
     
-/* }  */
+ } 
 @media screen and (max-width: 460px){
     .featured-item-content{
         -webkit-transform: translateY(68%);
@@ -310,7 +299,7 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
-
+/* 
 @media  screen and (max-width: 1500px) {
    
 .coming-soon > h1 {
@@ -344,4 +333,4 @@
 
     
 }
-
+ */
