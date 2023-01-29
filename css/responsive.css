@@ -316,7 +316,7 @@
 
 .day, .hour, .minute, .second {
     font-size: 90px !important;
-    color: greenyellow;
+    color: rgb(241, 0, 0);
 }
 
 .coming-soon{
