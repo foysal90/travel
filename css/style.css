@@ -1116,5 +1116,12 @@ header.header-sm{
     left: 5%;
 }
 
+.opening {
+    background-color: #08b9bf;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
 
 
