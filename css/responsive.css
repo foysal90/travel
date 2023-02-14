@@ -42,7 +42,7 @@
 
 
 @media  screen and (max-width: 1500px) {
-    .mission {
+    .vision {
     position: relative;
     left: 0;
     width: 100%;
@@ -54,14 +54,14 @@
         
     }
 
-    .mission ol li {
+    .vision ol li {
         display: flex;
         position: relative;
         left: 0;
         
     }
 
-    .mission ol li img {
+    .vision ol li img {
         position: relative;
         left: 0;
         width:20px;
@@ -131,6 +131,8 @@
                 align-items: center;
     }
 }
+
+
 
 @media screen and (min-width: 768px){
     .header-title p{
